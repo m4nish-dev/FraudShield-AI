@@ -1,4 +1,5 @@
-import { useNavigate } from 'react'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Plus, SlidersHorizontal, Users, Smartphone, Activity, ArrowRight, TrendingDown } from 'lucide-react'
 import PageHeader from '../components/layout/PageHeader'
