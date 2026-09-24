@@ -1,0 +1,538 @@
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/AIInvestigationReport.jsx
+  1:8   warning  'Badge' is defined but never used          no-unused-vars
+  2:8   warning  'Button' is defined but never used         no-unused-vars
+  3:10  warning  'Sparkles' is defined but never used       no-unused-vars
+  3:20  warning  'CheckCircle2' is defined but never used   no-unused-vars
+  3:34  warning  'AlertTriangle' is defined but never used  no-unused-vars
+  3:49  warning  'Info' is defined but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/AttackChainFlow.jsx
+   2:8   warning  'ReactFlow' is defined but never used       no-unused-vars
+   2:21  warning  'Background' is defined but never used      no-unused-vars
+   2:33  warning  'Controls' is defined but never used        no-unused-vars
+   2:55  warning  'Handle' is defined but never used          no-unused-vars
+   4:24  warning  'getRiskLevel' is defined but never used    no-unused-vars
+   6:8   warning  'RiskBar' is defined but never used         no-unused-vars
+  18:9   warning  'Icon' is assigned a value but never used   no-unused-vars
+  19:9   warning  'color' is assigned a value but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/CounterfactualPanel.jsx
+  1:10  warning  'ArrowRight' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/EvidencePanel.jsx
+  1:8   warning  'Badge' is defined but never used         no-unused-vars
+  2:10  warning  'getRiskColor' is defined but never used  no-unused-vars
+  2:24  warning  'getRiskLevel' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/FraudNetworkGraph.jsx
+   2:8   warning  'ReactFlow' is defined but never used      no-unused-vars
+   2:21  warning  'Background' is defined but never used     no-unused-vars
+   2:33  warning  'Controls' is defined but never used       no-unused-vars
+   2:55  warning  'Handle' is defined but never used         no-unused-vars
+  17:9   warning  'Icon' is assigned a value but never used  no-unused-vars
+  78:46  warning  'Icon' is defined but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/InterventionPanel.jsx
+  1:10  warning  'Shield' is defined but never used      no-unused-vars
+  1:18  warning  'ArrowRight' is defined but never used  no-unused-vars
+  2:8   warning  'Button' is defined but never used      no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/ModelDisagreement.jsx
+  1:10  warning  'AlertTriangle' is defined but never used  no-unused-vars
+  1:25  warning  'Info' is defined but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/ModelScoreGrid.jsx
+  2:8  warning  'RiskBar' is defined but never used  no-unused-vars
+  3:8  warning  'Tooltip' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/RiskTrajectory.jsx
+  1:10   warning  'ResponsiveContainer' is defined but never used     no-unused-vars
+  1:31   warning  'LineChart' is defined but never used               no-unused-vars
+  1:42   warning  'Line' is defined but never used                    no-unused-vars
+  1:48   warning  'XAxis' is defined but never used                   no-unused-vars
+  1:55   warning  'YAxis' is defined but never used                   no-unused-vars
+  1:62   warning  'ReferenceLine' is defined but never used           no-unused-vars
+  1:77   warning  'ReferenceArea' is defined but never used           no-unused-vars
+  1:92   warning  'Tooltip' is defined but never used                 no-unused-vars
+  1:101  warning  'Dot' is defined but never used                     no-unused-vars
+  5:9    warning  'CustomTooltip' is assigned a value but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/fraud/TransactionDetailPanel.jsx
+    1:10  warning  'Link' is defined but never used                   no-unused-vars
+    2:10  warning  'Copy' is defined but never used                   no-unused-vars
+    2:16  warning  'ExternalLink' is defined but never used           no-unused-vars
+    2:30  warning  'GitBranch' is defined but never used              no-unused-vars
+    2:41  warning  'Waypoints' is defined but never used              no-unused-vars
+    2:52  warning  'FileSearch2' is defined but never used            no-unused-vars
+    2:65  warning  'CheckCircle2' is defined but never used           no-unused-vars
+    3:8   warning  'Button' is defined but never used                 no-unused-vars
+    4:8   warning  'Badge' is defined but never used                  no-unused-vars
+    5:8   warning  'RiskBadge' is defined but never used              no-unused-vars
+    6:8   warning  'Divider' is defined but never used                no-unused-vars
+    7:8   warning  'Tooltip' is defined but never used                no-unused-vars
+    8:8   warning  'ModelScoreGrid' is defined but never used         no-unused-vars
+    9:38  warning  'getRiskLabel' is defined but never used           no-unused-vars
+   10:10  warning  'formatINR' is defined but never used              no-unused-vars
+   10:37  warning  'formatRelative' is defined but never used         no-unused-vars
+   14:10  warning  'RiskGauge' is defined but never used              no-unused-vars
+   76:10  warning  'KVRow' is defined but never used                  no-unused-vars
+  194:65  warning  'onClose' is defined but never used                no-unused-vars
+  200:9   warning  'handleCopyId' is assigned a value but never used  no-unused-vars
+  201:5   error    'navigator' is not defined                         no-undef
+  205:9   warning  'S' is assigned a value but never used             no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/layout/AppShell.jsx
+    2:10  warning  'Outlet' is defined but never used           no-unused-vars
+    2:18  warning  'NavLink' is defined but never used          no-unused-vars
+    4:3   warning  'ShieldAlert' is defined but never used      no-unused-vars
+    5:26  warning  'User' is defined but never used             no-unused-vars
+    5:58  warning  'Menu' is defined but never used             no-unused-vars
+    5:64  warning  'Bell' is defined but never used             no-unused-vars
+    5:70  warning  'Search' is defined but never used           no-unused-vars
+    7:10  warning  'motion' is defined but never used           no-unused-vars
+    7:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+    8:10  warning  'CommandPalette' is defined but never used   no-unused-vars
+    9:10  warning  'ToastContainer' is defined but never used   no-unused-vars
+   10:10  warning  'PageSkeleton' is defined but never used     no-unused-vars
+  121:19  warning  'Icon' is assigned a value but never used    no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/layout/PageSkeleton.jsx
+  1:10  warning  'Skeleton' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/layout/Sidebar.jsx
+   1:10  warning  'NavLink' is defined but never used          no-unused-vars
+   1:19  warning  'useLocation' is defined but never used      no-unused-vars
+   2:10  warning  'motion' is defined but never used           no-unused-vars
+   2:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+   4:3   warning  'ShieldAlert' is defined but never used      no-unused-vars
+  16:3   warning  'ChevronLeft' is defined but never used      no-unused-vars
+  17:3   warning  'ChevronRight' is defined but never used     no-unused-vars
+  61:10  warning  'NavItem' is defined but never used          no-unused-vars
+  62:9   warning  'Icon' is assigned a value but never used    no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/layout/Topbar.jsx
+   2:23  warning  'Link' is defined but never used           no-unused-vars
+   4:3   warning  'Search' is defined but never used         no-unused-vars
+   5:3   warning  'Bell' is defined but never used           no-unused-vars
+   6:3   warning  'Sun' is defined but never used            no-unused-vars
+   7:3   warning  'Moon' is defined but never used           no-unused-vars
+   8:3   warning  'ChevronRight' is defined but never used   no-unused-vars
+   9:3   warning  'Command' is defined but never used        no-unused-vars
+  29:10  warning  'LiveIndicator' is defined but never used  no-unused-vars
+  41:10  warning  'Breadcrumb' is defined but never used     no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/shared/AlertRow.jsx
+  1:10  warning  'ChevronRight' is defined but never used  no-unused-vars
+  5:8   warning  'RiskBadge' is defined but never used     no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/shared/StatCard.jsx
+  1:10  warning  'TrendingUp' is defined but never used           no-unused-vars
+  1:22  warning  'TrendingDown' is defined but never used         no-unused-vars
+  1:36  warning  'Minus' is defined but never used                no-unused-vars
+  3:3   warning  'ResponsiveContainer' is defined but never used  no-unused-vars
+  4:3   warning  'LineChart' is defined but never used            no-unused-vars
+  5:3   warning  'Line' is defined but never used                 no-unused-vars
+  6:14  warning  'RechartsTooltip' is defined but never used      no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/shared/ThemeToggle.jsx
+  1:10  warning  'Sun' is defined but never used   no-unused-vars
+  1:15  warning  'Moon' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Button.jsx
+  2:10  warning  'Loader2' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/CommandPalette.jsx
+   3:10  warning  'motion' is defined but never used           no-unused-vars
+   3:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+   4:10  warning  'Command' is defined but never used          no-unused-vars
+   4:19  warning  'Search' is defined but never used           no-unused-vars
+   4:27  warning  'Clock' is defined but never used            no-unused-vars
+   4:34  warning  'FileText' is defined but never used         no-unused-vars
+   4:44  warning  'ArrowRight' is defined but never used       no-unused-vars
+   6:10  warning  'cn' is defined but never used               no-unused-vars
+  89:41  warning  'idx' is defined but never used              no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Drawer.jsx
+  3:10  warning  'motion' is defined but never used           no-unused-vars
+  3:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+  4:10  warning  'X' is defined but never used                no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/EmptyState.jsx
+  2:8  warning  'Button' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Input.jsx
+  2:10  warning  'AlertCircle' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Modal.jsx
+  3:10  warning  'motion' is defined but never used           no-unused-vars
+  3:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+  4:10  warning  'X' is defined but never used                no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/RiskBadge.jsx
+  2:38  warning  'getRiskColor' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/RiskBar.jsx
+  11:7  warning  'LEVEL_GRADIENT' is assigned a value but never used  no-unused-vars
+  29:9  warning  'level' is assigned a value but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Select.jsx
+  2:10  warning  'ChevronDown' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Tabs.jsx
+  1:47  warning  'useId' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/ToastContainer.jsx
+   2:10  warning  'motion' is defined but never used           no-unused-vars
+   2:18  warning  'AnimatePresence' is defined but never used  no-unused-vars
+   3:10  warning  'X' is defined but never used                no-unused-vars
+  27:10  warning  'Toast' is defined but never used            no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/components/ui/Tooltip.jsx
+  1:39  warning  'cloneElement' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/main.jsx
+  1:8  warning  'React' is defined but never used   no-unused-vars
+  4:8  warning  'Router' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Analytics.jsx
+  2:10   warning  'ResponsiveContainer' is defined but never used  no-unused-vars
+  2:31   warning  'BarChart' is defined but never used             no-unused-vars
+  2:41   warning  'Bar' is defined but never used                  no-unused-vars
+  2:46   warning  'XAxis' is defined but never used                no-unused-vars
+  2:53   warning  'YAxis' is defined but never used                no-unused-vars
+  2:60   warning  'Tooltip' is defined but never used              no-unused-vars
+  2:69   warning  'Legend' is defined but never used               no-unused-vars
+  2:77   warning  'LineChart' is defined but never used            no-unused-vars
+  2:88   warning  'Line' is defined but never used                 no-unused-vars
+  2:94   warning  'PieChart' is defined but never used             no-unused-vars
+  2:104  warning  'Pie' is defined but never used                  no-unused-vars
+  2:109  warning  'Cell' is defined but never used                 no-unused-vars
+  3:10   warning  'Activity' is defined but never used             no-unused-vars
+  3:20   warning  'Clock' is defined but never used                no-unused-vars
+  3:27   warning  'Zap' is defined but never used                  no-unused-vars
+  4:8    warning  'PageHeader' is defined but never used           no-unused-vars
+  5:8    warning  'Card' is defined but never used                 no-unused-vars
+  6:10   warning  'motion' is defined but never used               no-unused-vars
+  6:18   warning  'AnimatePresence' is defined but never used      no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/AttackChains.jsx
+  2:10  warning  'Search' is defined but never used             no-unused-vars
+  2:18  warning  'ChevronRight' is defined but never used       no-unused-vars
+  2:32  warning  'Zap' is defined but never used                no-unused-vars
+  2:37  warning  'Target' is defined but never used             no-unused-vars
+  2:45  warning  'SlidersHorizontal' is defined but never used  no-unused-vars
+  2:64  warning  'Activity' is defined but never used           no-unused-vars
+  3:8   warning  'PageHeader' is defined but never used         no-unused-vars
+  4:8   warning  'Badge' is defined but never used              no-unused-vars
+  5:8   warning  'Input' is defined but never used              no-unused-vars
+  6:10  warning  'AttackChainFlow' is defined but never used    no-unused-vars
+  8:10  warning  'formatTime' is defined but never used         no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/CampaignDetail.jsx
+   2:21  warning  'Link' is defined but never used               no-unused-vars
+   3:10  warning  'ChevronLeft' is defined but never used        no-unused-vars
+   3:23  warning  'Flag' is defined but never used               no-unused-vars
+   3:29  warning  'Users' is defined but never used              no-unused-vars
+   3:36  warning  'Smartphone' is defined but never used         no-unused-vars
+   3:48  warning  'Activity' is defined but never used           no-unused-vars
+   3:58  warning  'AlertTriangle' is defined but never used      no-unused-vars
+   3:73  warning  'ShieldAlert' is defined but never used        no-unused-vars
+   4:10  warning  'motion' is defined but never used             no-unused-vars
+   4:18  warning  'AnimatePresence' is defined but never used    no-unused-vars
+   6:8   warning  'Card' is defined but never used               no-unused-vars
+   7:8   warning  'Button' is defined but never used             no-unused-vars
+   8:8   warning  'Badge' is defined but never used              no-unused-vars
+   9:8   warning  'RiskBadge' is defined but never used          no-unused-vars
+  10:8   warning  'Divider' is defined but never used            no-unused-vars
+  11:10  warning  'FraudNetworkGraph' is defined but never used  no-unused-vars
+  12:10  warning  'InterventionPanel' is defined but never used  no-unused-vars
+  16:8   warning  'transactionsData' is defined but never used   no-unused-vars
+  18:10  warning  'formatCompact' is defined but never used      no-unused-vars
+  25:9   warning  'color' is assigned a value but never used     no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Campaigns.jsx
+   2:10  warning  'motion' is defined but never used                       no-unused-vars
+   3:10  warning  'Plus' is defined but never used                         no-unused-vars
+   3:16  warning  'SlidersHorizontal' is defined but never used            no-unused-vars
+   3:35  warning  'Users' is defined but never used                        no-unused-vars
+   3:42  warning  'Smartphone' is defined but never used                   no-unused-vars
+   3:54  warning  'Activity' is defined but never used                     no-unused-vars
+   3:64  warning  'ArrowRight' is defined but never used                   no-unused-vars
+   3:76  warning  'TrendingDown' is defined but never used                 no-unused-vars
+   4:8   warning  'PageHeader' is defined but never used                   no-unused-vars
+   5:8   warning  'Button' is defined but never used                       no-unused-vars
+   6:8   warning  'Badge' is defined but never used                        no-unused-vars
+   7:8   warning  'RiskBar' is defined but never used                      no-unused-vars
+   8:24  warning  'getRiskLevel' is defined but never used                 no-unused-vars
+  13:7   warning  'MiniNetworkPreview' is assigned a value but never used  no-unused-vars
+  35:10  warning  'CampaignCard' is defined but never used                 no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/CaseDetail.jsx
+   2:21  warning  'Link' is defined but never used                   no-unused-vars
+   3:10  warning  'ChevronLeft' is defined but never used            no-unused-vars
+   3:23  warning  'Sparkles' is defined but never used               no-unused-vars
+   3:33  warning  'User' is defined but never used                   no-unused-vars
+   3:39  warning  'Tag' is defined but never used                    no-unused-vars
+   3:44  warning  'Clock' is defined but never used                  no-unused-vars
+   3:51  warning  'Shield' is defined but never used                 no-unused-vars
+   3:59  warning  'Flag' is defined but never used                   no-unused-vars
+   3:65  warning  'ChevronDown' is defined but never used            no-unused-vars
+   3:78  warning  'CheckCircle2' is defined but never used           no-unused-vars
+   4:10  warning  'motion' is defined but never used                 no-unused-vars
+   4:18  warning  'AnimatePresence' is defined but never used        no-unused-vars
+   6:8   warning  'Button' is defined but never used                 no-unused-vars
+   7:8   warning  'IconButton' is defined but never used             no-unused-vars
+   8:8   warning  'Badge' is defined but never used                  no-unused-vars
+   9:8   warning  'RiskBadge' is defined but never used              no-unused-vars
+  10:8   warning  'Card' is defined but never used                   no-unused-vars
+  16:10  warning  'FraudDNAProfile' is defined but never used        no-unused-vars
+  17:10  warning  'ModelScoreGrid' is defined but never used         no-unused-vars
+  18:10  warning  'ModelDisagreement' is defined but never used      no-unused-vars
+  19:10  warning  'AttackChainFlow' is defined but never used        no-unused-vars
+  20:10  warning  'FraudNetworkGraph' is defined but never used      no-unused-vars
+  21:10  warning  'EvidencePanel' is defined but never used          no-unused-vars
+  22:10  warning  'CounterfactualPanel' is defined but never used    no-unused-vars
+  23:10  warning  'RiskTrajectory' is defined but never used         no-unused-vars
+  24:10  warning  'AIInvestigationReport' is defined but never used  no-unused-vars
+  25:10  warning  'InterventionPanel' is defined but never used      no-unused-vars
+  98:9   warning  'navigate' is assigned a value but never used      no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Cases.jsx
+   3:10  warning  'Plus' is defined but never used               no-unused-vars
+   3:16  warning  'SlidersHorizontal' is defined but never used  no-unused-vars
+   3:35  warning  'LayoutGrid' is defined but never used         no-unused-vars
+   3:47  warning  'List' is defined but never used               no-unused-vars
+   3:53  warning  'ArrowRight' is defined but never used         no-unused-vars
+   3:65  warning  'Activity' is defined but never used           no-unused-vars
+   3:75  warning  'Users' is defined but never used              no-unused-vars
+   4:10  warning  'motion' is defined but never used             no-unused-vars
+   5:8   warning  'PageHeader' is defined but never used         no-unused-vars
+   6:8   warning  'Button' is defined but never used             no-unused-vars
+   7:8   warning  'IconButton' is defined but never used         no-unused-vars
+   8:8   warning  'Badge' is defined but never used              no-unused-vars
+   9:8   warning  'RiskBar' is defined but never used            no-unused-vars
+  16:10  warning  'CaseCard' is defined but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Dashboard.jsx
+    2:10  warning  'Link' is defined but never used                   no-unused-vars
+    4:3   warning  'AreaChart' is defined but never used              no-unused-vars
+    4:14  warning  'Area' is defined but never used                   no-unused-vars
+    4:20  warning  'XAxis' is defined but never used                  no-unused-vars
+    4:27  warning  'YAxis' is defined but never used                  no-unused-vars
+    4:34  warning  'CartesianGrid' is defined but never used          no-unused-vars
+    5:14  warning  'RechartsTooltip' is defined but never used        no-unused-vars
+    5:31  warning  'ResponsiveContainer' is defined but never used    no-unused-vars
+    6:3   warning  'BarChart' is defined but never used               no-unused-vars
+    6:13  warning  'Bar' is defined but never used                    no-unused-vars
+    6:18  warning  'Cell' is defined but never used                   no-unused-vars
+   10:3   warning  'Download' is defined but never used               no-unused-vars
+   10:13  warning  'Users' is defined but never used                  no-unused-vars
+   10:20  warning  'ArrowRight' is defined but never used             no-unused-vars
+   10:32  warning  'Activity' is defined but never used               no-unused-vars
+   10:42  warning  'TrendingUp' is defined but never used             no-unused-vars
+   11:3   warning  'ChevronRight' is defined but never used           no-unused-vars
+   11:17  warning  'Clock' is defined but never used                  no-unused-vars
+   11:24  warning  'Zap' is defined but never used                    no-unused-vars
+   13:10  warning  'motion' is defined but never used                 no-unused-vars
+   15:8   warning  'PageHeader' is defined but never used             no-unused-vars
+   16:8   warning  'Card' is defined but never used                   no-unused-vars
+   17:8   warning  'Button' is defined but never used                 no-unused-vars
+   18:8   warning  'Badge' is defined but never used                  no-unused-vars
+   19:8   warning  'RiskBadge' is defined but never used              no-unused-vars
+   20:8   warning  'RiskBar' is defined but never used                no-unused-vars
+   21:8   warning  'Select' is defined but never used                 no-unused-vars
+   22:8   warning  'Divider' is defined but never used                no-unused-vars
+   23:8   warning  'StatCard' is defined but never used               no-unused-vars
+   24:8   warning  'AlertRow' is defined but never used               no-unused-vars
+   31:10  warning  'formatINR' is defined but never used              no-unused-vars
+   77:39  warning  'i' is defined but never used                      no-unused-vars
+   86:10  warning  'ChartTooltip' is defined but never used           no-unused-vars
+  110:10  warning  'ChartTabBtn' is defined but never used            no-unused-vars
+  127:10  warning  'RiskDistRow' is defined but never used            no-unused-vars
+  127:24  warning  'level' is defined but never used                  no-unused-vars
+  155:10  warning  'ModelRow' is defined but never used               no-unused-vars
+  191:10  warning  'CampaignCard' is defined but never used           no-unused-vars
+  262:9   warning  'chartDataKey' is assigned a value but never used  no-unused-vars
+  592:29  warning  'a' is defined but never used                      no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/DesignSystem.jsx
+   3:3   warning  'ShieldAlert' is defined but never used   no-unused-vars
+   3:31  warning  'Search' is defined but never used        no-unused-vars
+   3:39  warning  'Plus' is defined but never used          no-unused-vars
+   3:45  warning  'Trash2' is defined but never used        no-unused-vars
+   4:3   warning  'Download' is defined but never used      no-unused-vars
+   4:13  warning  'RefreshCw' is defined but never used     no-unused-vars
+   4:24  warning  'Eye' is defined but never used           no-unused-vars
+   4:29  warning  'Filter' is defined but never used        no-unused-vars
+   5:13  warning  'GitBranch' is defined but never used     no-unused-vars
+   5:24  warning  'Waypoints' is defined but never used     no-unused-vars
+   5:46  warning  'Info' is defined but never used          no-unused-vars
+   6:3   warning  'CheckCircle2' is defined but never used  no-unused-vars
+   6:17  warning  'XCircle' is defined but never used       no-unused-vars
+   6:26  warning  'Clock' is defined but never used         no-unused-vars
+  10:8   warning  'Button' is defined but never used        no-unused-vars
+  11:8   warning  'IconButton' is defined but never used    no-unused-vars
+  12:8   warning  'Badge' is defined but never used         no-unused-vars
+  13:8   warning  'RiskBadge' is defined but never used     no-unused-vars
+  14:8   warning  'RiskBar' is defined but never used       no-unused-vars
+  15:8   warning  'Card' is defined but never used          no-unused-vars
+  16:8   warning  'Input' is defined but never used         no-unused-vars
+  17:8   warning  'Select' is defined but never used        no-unused-vars
+  18:10  warning  'Tabs' is defined but never used          no-unused-vars
+  18:16  warning  'TabList' is defined but never used       no-unused-vars
+  18:25  warning  'Tab' is defined but never used           no-unused-vars
+  18:30  warning  'TabPanel' is defined but never used      no-unused-vars
+  19:8   warning  'Table' is defined but never used         no-unused-vars
+  20:8   warning  'Tooltip' is defined but never used       no-unused-vars
+  21:8   warning  'Modal' is defined but never used         no-unused-vars
+  22:8   warning  'Drawer' is defined but never used        no-unused-vars
+  23:8   warning  'Skeleton' is defined but never used      no-unused-vars
+  23:20  warning  'SkeletonText' is defined but never used  no-unused-vars
+  24:8   warning  'EmptyState' is defined but never used    no-unused-vars
+  25:8   warning  'Kbd' is defined but never used           no-unused-vars
+  26:8   warning  'Divider' is defined but never used       no-unused-vars
+  29:8   warning  'StatCard' is defined but never used      no-unused-vars
+  30:8   warning  'AlertRow' is defined but never used      no-unused-vars
+  31:8   warning  'ThemeToggle' is defined but never used   no-unused-vars
+  37:10  warning  'Section' is defined but never used       no-unused-vars
+  54:10  warning  'Row' is defined but never used           no-unused-vars
+  68:10  warning  'ColorSwatch' is defined but never used   no-unused-vars
+  68:24  warning  'color' is defined but never used         no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/FraudNetwork.jsx
+  2:10  warning  'Filter' is defined but never used             no-unused-vars
+  2:18  warning  'Eye' is defined but never used                no-unused-vars
+  2:23  warning  'Maximize' is defined but never used           no-unused-vars
+  2:33  warning  'AlertCircle' is defined but never used        no-unused-vars
+  2:46  warning  'Share2' is defined but never used             no-unused-vars
+  2:54  warning  'Layers' is defined but never used             no-unused-vars
+  3:8   warning  'PageHeader' is defined but never used         no-unused-vars
+  4:8   warning  'Button' is defined but never used             no-unused-vars
+  5:8   warning  'IconButton' is defined but never used         no-unused-vars
+  6:8   warning  'Badge' is defined but never used              no-unused-vars
+  7:8   warning  'RiskBadge' is defined but never used          no-unused-vars
+  8:10  warning  'FraudNetworkGraph' is defined but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Investigations.jsx
+  2:10  warning  'Sparkles' is defined but never used    no-unused-vars
+  2:20  warning  'ArrowRight' is defined but never used  no-unused-vars
+  2:32  warning  'Search' is defined but never used      no-unused-vars
+  2:40  warning  'Filter' is defined but never used      no-unused-vars
+  4:8   warning  'PageHeader' is defined but never used  no-unused-vars
+  5:8   warning  'Button' is defined but never used      no-unused-vars
+  6:8   warning  'Input' is defined but never used       no-unused-vars
+  7:8   warning  'Badge' is defined but never used       no-unused-vars
+  8:8   warning  'RiskBadge' is defined but never used   no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/RiskTimeline.jsx
+   2:10  warning  'Calendar' is defined but never used                no-unused-vars
+   2:20  warning  'Search' is defined but never used                  no-unused-vars
+   2:28  warning  'Activity' is defined but never used                no-unused-vars
+   2:38  warning  'Flag' is defined but never used                    no-unused-vars
+   2:44  warning  'Clock' is defined but never used                   no-unused-vars
+   3:10  warning  'ResponsiveContainer' is defined but never used     no-unused-vars
+   3:31  warning  'AreaChart' is defined but never used               no-unused-vars
+   3:42  warning  'Area' is defined but never used                    no-unused-vars
+   3:48  warning  'XAxis' is defined but never used                   no-unused-vars
+   3:55  warning  'YAxis' is defined but never used                   no-unused-vars
+   3:62  warning  'Tooltip' is defined but never used                 no-unused-vars
+   3:71  warning  'ReferenceLine' is defined but never used           no-unused-vars
+   4:8   warning  'PageHeader' is defined but never used              no-unused-vars
+   5:8   warning  'Input' is defined but never used                   no-unused-vars
+   6:8   warning  'Card' is defined but never used                    no-unused-vars
+  30:9   warning  'CustomTooltip' is assigned a value but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Settings.jsx
+    2:22  warning  'SettingsIcon' is defined but never used   no-unused-vars
+    2:85  warning  'ShieldAlert' is defined but never used    no-unused-vars
+    3:8   warning  'PageHeader' is defined but never used     no-unused-vars
+    4:8   warning  'Card' is defined but never used           no-unused-vars
+    5:8   warning  'Button' is defined but never used         no-unused-vars
+  154:19  warning  'Icon' is assigned a value but never used  no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/TransactionDetail.jsx
+    2:21  warning  'Link' is defined but never used                    no-unused-vars
+    4:3   warning  'ChevronLeft' is defined but never used             no-unused-vars
+    4:16  warning  'Copy' is defined but never used                    no-unused-vars
+    4:22  warning  'Clock' is defined but never used                   no-unused-vars
+    4:29  warning  'MapPin' is defined but never used                  no-unused-vars
+    4:37  warning  'Smartphone' is defined but never used              no-unused-vars
+    5:3   warning  'CreditCard' is defined but never used              no-unused-vars
+    5:15  warning  'Activity' is defined but never used                no-unused-vars
+    5:25  warning  'GitBranch' is defined but never used               no-unused-vars
+    5:36  warning  'Waypoints' is defined but never used               no-unused-vars
+    6:3   warning  'FileSearch2' is defined but never used             no-unused-vars
+    6:16  warning  'CheckCircle2' is defined but never used            no-unused-vars
+    6:30  warning  'AlertTriangle' is defined but never used           no-unused-vars
+    9:8   warning  'Card' is defined but never used                    no-unused-vars
+   10:8   warning  'Button' is defined but never used                  no-unused-vars
+   11:8   warning  'IconButton' is defined but never used              no-unused-vars
+   12:8   warning  'Badge' is defined but never used                   no-unused-vars
+   13:8   warning  'RiskBadge' is defined but never used               no-unused-vars
+   14:8   warning  'RiskBar' is defined but never used                 no-unused-vars
+   15:8   warning  'Divider' is defined but never used                 no-unused-vars
+   16:8   warning  'Tooltip' is defined but never used                 no-unused-vars
+   17:10  warning  'ModelScoreGrid' is defined but never used          no-unused-vars
+   18:10  warning  'TransactionDetailPanel' is defined but never used  no-unused-vars
+   21:38  warning  'getRiskLabel' is defined but never used            no-unused-vars
+   22:10  warning  'formatINR' is defined but never used               no-unused-vars
+   22:37  warning  'formatRelative' is defined but never used          no-unused-vars
+   22:53  warning  'formatTime' is defined but never used              no-unused-vars
+   30:10  warning  'RiskGaugeLarge' is defined but never used          no-unused-vars
+   78:10  warning  'KV' is defined but never used                      no-unused-vars
+  193:30  error    'navigator' is not defined                          no-undef
+
+/Users/manish/Desktop/fraud shield/frontend/src/pages/Transactions.jsx
+    4:3   warning  'SlidersHorizontal' is defined but never used       no-unused-vars
+    4:22  warning  'Download' is defined but never used                no-unused-vars
+    4:32  warning  'RefreshCw' is defined but never used               no-unused-vars
+    5:3   warning  'Columns3' is defined but never used                no-unused-vars
+    5:13  warning  'ArrowUpDown' is defined but never used             no-unused-vars
+    5:26  warning  'ChevronUp' is defined but never used               no-unused-vars
+    5:37  warning  'ChevronDown' is defined but never used             no-unused-vars
+    6:3   warning  'Smartphone' is defined but never used              no-unused-vars
+    6:15  warning  'MoreHorizontal' is defined but never used          no-unused-vars
+    6:31  warning  'Copy' is defined but never used                    no-unused-vars
+    6:37  warning  'ArrowRight' is defined but never used              no-unused-vars
+    8:10  warning  'motion' is defined but never used                  no-unused-vars
+    8:18  warning  'AnimatePresence' is defined but never used         no-unused-vars
+   10:8   warning  'PageHeader' is defined but never used              no-unused-vars
+   11:8   warning  'Button' is defined but never used                  no-unused-vars
+   12:8   warning  'IconButton' is defined but never used              no-unused-vars
+   13:8   warning  'Badge' is defined but never used                   no-unused-vars
+   14:8   warning  'RiskBadge' is defined but never used               no-unused-vars
+   15:8   warning  'RiskBar' is defined but never used                 no-unused-vars
+   16:8   warning  'Input' is defined but never used                   no-unused-vars
+   17:8   warning  'Select' is defined but never used                  no-unused-vars
+   18:8   warning  'Drawer' is defined but never used                  no-unused-vars
+   19:8   warning  'Tooltip' is defined but never used                 no-unused-vars
+   20:8   warning  'EmptyState' is defined but never used              no-unused-vars
+   22:10  warning  'TransactionDetailPanel' is defined but never used  no-unused-vars
+   34:10  warning  'SortIcon' is defined but never used                no-unused-vars
+   44:10  warning  'SortableHeader' is defined but never used          no-unused-vars
+  145:5   error    'navigator' is not defined                          no-undef
+
+/Users/manish/Desktop/fraud shield/frontend/src/router.jsx
+   1:31  warning  'RouterProvider' is defined but never used     no-unused-vars
+   2:8   warning  'AppShell' is defined but never used           no-unused-vars
+   5:8   warning  'Dashboard' is defined but never used          no-unused-vars
+   6:8   warning  'DesignSystem' is defined but never used       no-unused-vars
+   7:8   warning  'Transactions' is defined but never used       no-unused-vars
+   8:8   warning  'TransactionDetail' is defined but never used  no-unused-vars
+   9:8   warning  'Cases' is defined but never used              no-unused-vars
+  10:8   warning  'CaseDetail' is defined but never used         no-unused-vars
+  11:8   warning  'AttackChains' is defined but never used       no-unused-vars
+  12:8   warning  'FraudNetwork' is defined but never used       no-unused-vars
+  13:8   warning  'Campaigns' is defined but never used          no-unused-vars
+  14:8   warning  'CampaignDetail' is defined but never used     no-unused-vars
+  15:8   warning  'RiskTimeline' is defined but never used       no-unused-vars
+  16:8   warning  'Investigations' is defined but never used     no-unused-vars
+  17:8   warning  'Analytics' is defined but never used          no-unused-vars
+  18:8   warning  'Settings' is defined but never used           no-unused-vars
+
+/Users/manish/Desktop/fraud shield/frontend/src/store/useAppStore.js
+  7:41  warning  'get' is defined but never used  no-unused-vars
+
+✖ 443 problems (3 errors, 440 warnings)
+

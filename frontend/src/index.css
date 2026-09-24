@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base Reset & Global ─────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    border-color: theme('colors.border.default');
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    tab-size: 4;
+  }
+
+  body {
+    @apply bg-canvas text-text-primary font-sans antialiased;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: "cv11", "ss01", "ss03";
+    letter-spacing: -0.005em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings use display font with tight tracking */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+    letter-spacing: -0.01em;
+  }
+
+  /* Selection color */
+  ::selection {
+    background-color: rgba(56, 189, 248, 0.25);
+    color: #F4F4F5;
+  }
+
+  /* Focus visible */
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #0A0A0B, 0 0 0 4px rgba(56, 189, 248, 0.4);
+  }
+}
+
+/* ─── Custom Scrollbar ─────────────────────────────────────────────────── */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #27272C transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #27272C;
+    border-radius: 3px;
+    transition: background-color 150ms ease-out;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #3A3A42;
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+/* ─── Utility Classes ──────────────────────────────────────────────────── */
+@layer utilities {
+  /* Monospace utility */
+  .mono {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* Tabular numbers */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+
+  /* Combined mono + tabular for IDs, amounts, timestamps */
+  .mono-tabular {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+
+  /* Subtle text truncation */
+  .truncate-id {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  /* Skeleton shimmer background */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      #17171A 25%,
+      #1F1F23 50%,
+      #17171A 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Risk score bar fill */
+  .risk-bar-fill {
+    transition: width 300ms ease-out;
+  }
+
+  /* Dense table row height */
+  .table-row-dense {
+    height: 32px;
+  }
+
+  /* Left accent bar for active nav */
+  .nav-active-bar {
+    position: relative;
+  }
+
+  .nav-active-bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 16px;
+    background-color: #38BDF8;
+    border-radius: 0 1px 1px 0;
+  }
+
+  /* Glass card effect for elevated panels */
+  .glass {
+    background: rgba(23, 23, 26, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Glow pulse for live indicator */
+  .live-dot::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    background-color: #4ADE80;
+    opacity: 0.4;
+    animation: pulse_dot 2s ease-in-out infinite;
+  }
+
+  /* Number display (large metric) */
+  .metric-number {
+    font-family: 'Inter Tight', Inter, sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum", "cv11";
+    letter-spacing: -0.02em;
+  }
+}
+
+/* ─── Component Defaults ───────────────────────────────────────────────── */
+@layer components {
+  /* Card base */
+  .card {
+    @apply bg-surface border border-border-default rounded-lg shadow-card;
+  }
+
+  /* Input base */
+  .input-base {
+    @apply bg-inset border border-border-default rounded-md text-text-primary text-sm px-3 py-2;
+    @apply placeholder:text-text-tertiary;
+    @apply focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20;
+    @apply transition-colors duration-150;
+  }
+
+  /* Button base */
+  .btn-base {
+    @apply inline-flex items-center gap-2 rounded-md font-medium text-sm;
+    @apply transition-all duration-150 ease-out;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40;
+    @apply disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  /* Badge base */
+  .badge-base {
+    @apply inline-flex items-center gap-1 rounded-md text-xs font-medium px-2 py-0.5;
+  }
+}
