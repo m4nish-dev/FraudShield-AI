@@ -30,24 +30,24 @@ export default {
       // ─── Colors ────────────────────────────────────────────────────────
       colors: {
         // Neutral canvas / surface system
-        canvas:   '#0A0A0B',
-        surface:  '#111113',
-        elevated: '#17171A',
-        inset:    '#08080A',
+        canvas:   'var(--color-canvas)',
+        surface:  'var(--color-surface)',
+        elevated: 'var(--color-elevated)',
+        inset:    'var(--color-inset)',
 
         // Border system
         border: {
-          subtle:  '#1F1F23',
-          default: '#27272C',
-          strong:  '#3A3A42',
+          subtle:  'var(--color-border-subtle)',
+          default: 'var(--color-border-default)',
+          strong:  'var(--color-border-strong)',
         },
 
         // Text system
         text: {
-          primary:   '#F4F4F5',
-          secondary: '#A1A1AA',
-          tertiary:  '#71717A',
-          disabled:  '#52525B',
+          primary:   'var(--color-text-primary)',
+          secondary: 'var(--color-text-secondary)',
+          tertiary:  'var(--color-text-tertiary)',
+          disabled:  'var(--color-text-disabled)',
         },
 
         // Accent — cyan-blue intelligence brand color

@@ -11,4 +11,7 @@ export const useUIStore = create((set) => ({
   
   isCommandPaletteOpen: false,
   setCommandPaletteOpen: (isOpen) => set({ isCommandPaletteOpen: isOpen }),
+
+  darkMode: true,
+  toggleDarkMode: () => set((state) => ({ darkMode: !state.darkMode })),
 }))

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import {
   ShieldAlert, LayoutDashboard, Activity, FileText, Share2, 
-  Target, Globe, Shield, User, Settings as SettingsIcon, Menu, Bell, Search
+  Target, Globe, Shield, User, Settings as SettingsIcon, Menu, Bell, Search, Moon, Sun
 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { CommandPalette } from '../ui/CommandPalette'
@@ -29,7 +29,16 @@ export default function AppShell() {
   const [isLoading, setIsLoading] = useState(false)
   const location = useLocation()
   const navigate = useNavigate()
-  const { setCommandPaletteOpen } = useUIStore()
+  const { setCommandPaletteOpen, darkMode, toggleDarkMode } = useUIStore()
+
+  // Apply dark mode class to HTML
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [darkMode])
 
   // Route change mock loading
   useEffect(() => {
@@ -174,10 +183,17 @@ export default function AppShell() {
               <span className="ml-4 border border-border-strong rounded px-1 text-[10px]">⌘K</span>
             </button>
             <div className="w-px h-5 bg-border-strong" />
+            <button 
+              onClick={toggleDarkMode}
+              className="text-text-tertiary hover:text-text-primary transition-colors"
+              title={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+            >
+              {darkMode ? <Sun size={16} strokeWidth={1.5} /> : <Moon size={16} strokeWidth={1.5} />}
+            </button>
             <button className="text-text-tertiary hover:text-text-primary transition-colors">
               <Bell size={16} strokeWidth={1.5} />
             </button>
-            <button className="w-7 h-7 rounded-full bg-accent/20 border border-accent flex items-center justify-center text-xs font-medium text-accent">
+            <button className="w-7 h-7 rounded-full bg-accent/20 border border-accent flex items-center justify-center text-xs font-medium text-accent ml-2">
               A
             </button>
           </div>
